@@ -1,0 +1,64 @@
+{
+  "n_runs": 100,
+  "rules": {
+    "R_share": {
+      "hits": 50,
+      "n": 100,
+      "recall": 0.5,
+      "recall_ci95": [
+        0.40382982859014716,
+        0.5961701714098528
+      ]
+    },
+    "R_win": {
+      "hits": 97,
+      "latency_s_from_first_overwrite": {
+        "max": 188,
+        "median": 43
+      },
+      "n": 100,
+      "recall": 0.97,
+      "recall_ci95": [
+        0.915479219195973,
+        0.9897456617765851
+      ]
+    },
+    "R_winshare": {
+      "by_benign_app": {
+        "AESCrypt": "2/20",
+        "Firefox": "20/20",
+        "Firefox_Office": "10/10",
+        "Office": "10/10",
+        "SDelete": "7/20",
+        "Zip": "4/20"
+      },
+      "by_combo": {
+        "AESCrypt_Conti": "2/10",
+        "AESCrypt_REvil": "0/10",
+        "Firefox_Conti": "10/10",
+        "Firefox_Office_REvil": "10/10",
+        "Firefox_REvil": "10/10",
+        "Office_REvil": "10/10",
+        "SDelete_Conti": "5/10",
+        "SDelete_REvil": "2/10",
+        "Zip_Conti": "3/10",
+        "Zip_REvil": "1/10"
+      },
+      "by_ransomware": {
+        "Conti": "20/40",
+        "REvil": "33/60"
+      },
+      "hits": 53,
+      "latency_s_from_first_overwrite": {
+        "max": 172,
+        "median": 69
+      },
+      "n": 100,
+      "recall": 0.53,
+      "recall_ci95": [
+        0.4328868313724773,
+        0.6248934801789626
+      ]
+    }
+  }
+}

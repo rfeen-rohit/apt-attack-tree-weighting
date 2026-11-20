@@ -1,0 +1,128 @@
+{
+  "config": {
+    "anchor_min_confidence": 0.0,
+    "collision_rate": 0.02,
+    "drop_prob": 0.06,
+    "keep_work": false,
+    "load_multiplier": 3.0,
+    "max_record_rows": 20000,
+    "no_bridge": false,
+    "prior": 0.01,
+    "records": 6000,
+    "removal_min_surplus": 1,
+    "remove": 12,
+    "seed_base": 42,
+    "seeds": 5
+  },
+  "derived_aggregate": {
+    "clear_whole_log": {
+      "affected_cases": 0,
+      "alerts": 5,
+      "newly_unexplained_records": 0,
+      "runs": 5
+    },
+    "none": {
+      "affected_cases": 0,
+      "alerts": 0,
+      "newly_unexplained_records": 0,
+      "runs": 5
+    },
+    "removed_before_forward": {
+      "affected_cases": 0,
+      "alerts": 0,
+      "newly_unexplained_records": 0,
+      "runs": 5
+    },
+    "selective_renumbered": {
+      "affected_cases": 0,
+      "alerts": 5,
+      "newly_unexplained_records": 0,
+      "runs": 5
+    }
+  },
+  "summary": {
+    "clear_whole_log": {
+      "detectors": {
+        "clearing_rules": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        },
+        "content_compare": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_mean": 0.9912,
+          "recall_sd": 0.0013
+        },
+        "gap_check": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        }
+      },
+      "not_exercised": false
+    },
+    "none": {
+      "detectors": {
+        "clearing_rules": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        },
+        "content_compare": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        },
+        "gap_check": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        }
+      },
+      "not_exercised": false
+    },
+    "removed_before_forward": {
+      "detectors": {
+        "clearing_rules": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        },
+        "content_compare": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_mean": 0.0,
+          "recall_sd": 0.0
+        },
+        "gap_check": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        }
+      },
+      "not_exercised": false
+    },
+    "selective_renumbered": {
+      "detectors": {
+        "clearing_rules": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        },
+        "content_compare": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_mean": 1.0,
+          "recall_sd": 0.0
+        },
+        "gap_check": {
+          "false_positives_mean": 0,
+          "not_exercised": false,
+          "recall_sd": 0.0
+        }
+      },
+      "not_exercised": false
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "config": {
+    "block_sizes": [
+      1024,
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "govdocs1": {
+      "thread": 0
+    },
+    "histogram_chunk_bytes": 1024,
+    "include_web_media": true,
+    "kit_constants": {
+      "SAMPLE_BYTES": 4096,
+      "chi_max": 350.0,
+      "ent_min": 7.5
+    },
+    "max_blocks_per_file": 48,
+    "max_bytes_per_file": 8388608,
+    "media_cap": 60,
+    "min_bytes": 1024,
+    "n_encrypt_requested": 50,
+    "per_type_cap": 60,
+    "seed": 20261004,
+    "zlib_blobs": 8,
+    "zlib_input_bytes": 1048576
+  },
+  "corpus": {
+    "blocks_by_type": {
+      "aes_cbc": 5713,
+      "aes_ctr": 5713,
+      "docx": 76,
+      "gif": 359,
+      "gzip": 61,
+      "jpeg": 2751,
+      "pdf": 9469,
+      "png": 1336,
+      "pptx": 478,
+      "source": 715,
+      "text": 2002,
+      "xlsx": 248,
+      "zip": 2940,
+      "zlib_text": 433
+    },
+    "files_by_type": {
+      "aes_cbc": 50,
+      "aes_ctr": 50,
+      "docx": 3,
+      "gif": 32,
+      "gzip": 1,
+      "jpeg": 60,
+      "pdf": 60,
+      "png": 60,
+      "pptx": 3,
+      "source": 42,
+      "text": 60,
+      "xlsx": 2,
+      "zip": 30,
+      "zlib_text": 4
+    },
+    "real_files_discovered_by_type": {
+      "docx": 3,
+      "gif": 32,
+      "gzip": 1,
+      "jpeg": 60,
+      "pdf": 60,
+      "png": 60,
+      "pptx": 3,
+      "source": 42,
+      "text": 60,
+      "xlsx": 2,
+      "zip": 30
+    }
+  },
+  "sweep": [
+    {
+      "block_size": 1024,
+      "features": {
+        "chi_square": {
+          "auc": 0.8885377155475823
+        },
+        "combined": {
+          "auc": 0.885717081422701
+        },
+        "combined_in_sample": {
+          "auc": 0.8885322621717029
+        },
+        "entropy_bits": {
+          "auc": 0.8832342365980258
+        }
+      }
+    },
+    {
+      "block_size": 4096,
+      "features": {
+        "chi_square": {
+          "auc": 0.9363390388185215
+        },
+        "combined": {
+          "auc": 0.9370708577927056
+        },
+        "combined_in_sample": {
+          "auc": 0.9363457236128708
+        },
+        "entropy_bits": {
+          "auc": 0.9348978711387254
+        }
+      }
+    },
+    {
+      "block_size": 16384,
+      "features": {
+        "chi_square": {
+          "auc": 0.9687718866150195
+        },
+        "combined": {
+          "auc": 0.9775661810584763
+        },
+        "combined_in_sample": {
+          "auc": 0.9687712895377129
+        },
+        "entropy_bits": {
+          "auc": 0.9687533772185154
+        }
+      }
+    },
+    {
+      "block_size": 65536,
+      "features": {
+        "chi_square": {
+          "auc": 0.9867080433542499
+        },
+        "combined": {
+          "auc": 0.9944718086839953
+        },
+        "combined_in_sample": {
+          "auc": 0.9867084997147747
+        },
+        "entropy_bits": {
+          "auc": 0.9867678265830006
+        }
+      }
+    },
+    {
+      "block_size": 262144,
+      "features": {
+        "chi_square": {
+          "auc": 0.9955931680069611
+        },
+        "combined": {
+          "auc": 1.0
+        },
+        "combined_in_sample": {
+          "auc": 0.9955931680069611
+        },
+        "entropy_bits": {
+          "auc": 0.9956072025037542
+        }
+      }
+    },
+    {
+      "features": {
+        "chi_square": {
+          "auc": 1.0
+        },
+        "combined": {
+          "auc": 1.0
+        },
+        "combined_in_sample": {
+          "auc": 1.0
+        },
+        "entropy_bits": {
+          "auc": 0.9761904761904762
+        }
+      }
+    }
+  ]
+}

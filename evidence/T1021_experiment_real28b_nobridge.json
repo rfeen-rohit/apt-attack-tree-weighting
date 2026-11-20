@@ -1,0 +1,81 @@
+{
+  "assumption_check": {
+    "by_class": {
+      "other": {
+        "hosts": 13861,
+        "in_server_like_class": 828,
+        "logons_initiated": 61630712,
+        "logons_received": 61630712,
+        "per_day": 7883755.61,
+        "share_of_all_logons": 1.0
+      }
+    },
+    "logons_initiated_by_them": 1026518,
+    "per_day": 131311.43,
+    "server_like_hosts": 828,
+    "share_of_all_logons": 0.01666
+  },
+  "config": {
+    "activity_window": 3600,
+    "allow_cold_window": false,
+    "anchor_confidence": 0.8239305502480224,
+    "anchor_ttl": 86400,
+    "budget": 1000,
+    "heartbeat": 30,
+    "n_anchors": 1,
+    "no_anchors_out": false,
+    "no_bridge": true,
+    "no_progress_file": false,
+    "path_gap": 86400,
+    "prior": 0.01,
+    "progress_rows": 250000,
+    "progress_seconds": 180,
+    "route_at": 0.5,
+    "seed_base": 42,
+    "seeds": 5,
+    "synthesise_anchors": false
+  },
+  "data": {
+    "redteam_events": 311
+  },
+  "results": {
+    "none": {
+      "alert_fpr_over_logons": 0.00013,
+      "alerts": 8000,
+      "alerts_not_redteam": 7997,
+      "alerts_per_day": 1023.35,
+      "anchor_hosts_n": 0,
+      "anchor_matched_logons": 0,
+      "days": 7.8174,
+      "non_redteam_logons": 61630401,
+      "redteam_detected_events": 3,
+      "redteam_detected_paths": 1,
+      "redteam_recall_over_events": 0.0096,
+      "redteam_recall_over_paths": 0.1,
+      "redteam_total_events": 311,
+      "redteam_total_paths": 10
+    },
+    "wrong_origin": {}
+  },
+  "window": {
+    "applied": true,
+    "auth_meta_window": {
+      "window_applied": true,
+      "window_days": 7.8174,
+      "window_from_time": 120688,
+      "window_rows_before": 22117726,
+      "window_stopped_at_to_time": true,
+      "window_to_time": 796114
+    },
+    "days": 7.8174,
+    "days_covered": 7,
+    "first_time": 120688,
+    "from_time": 120688,
+    "last_time": 796114,
+    "redteam_rows": 311,
+    "rows_dropped_here_after_window": 0,
+    "rows_dropped_here_before_window": 0,
+    "rows_kept": 61630712,
+    "to_time": 796114
+  }
+}

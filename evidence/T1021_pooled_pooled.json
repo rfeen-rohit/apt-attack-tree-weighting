@@ -1,0 +1,38 @@
+{
+  "detected": 2,
+  "false_alerts": 16995,
+  "fpr": 0.00013410179540644182,
+  "lr_plus": 994.2695616357753,
+  "n_neg": 126732084,
+  "n_pos": 15,
+  "prior": 0.01,
+  "tpr": 0.13333333333333333,
+  "tpr_wilson95": [
+    0.0373604698913593,
+    0.3788249920651624
+  ],
+  "windows": [
+    {
+      "alerts_not_redteam": 7997,
+      "budget": 1000,
+      "days": 7.8174,
+      "logons": 61630712,
+      "non_redteam_logons": 61630401,
+      "redteam_detected_paths": 1,
+      "redteam_total_paths": 10,
+      "to": 796114,
+      "window": 120688
+    },
+    {
+      "alerts_not_redteam": 8998,
+      "budget": 1000,
+      "days": 8.2663,
+      "logons": 65101724,
+      "non_redteam_logons": 65101683,
+      "redteam_detected_paths": 1,
+      "redteam_total_paths": 5,
+      "to": 2405584,
+      "window": 1691375
+    }
+  ]
+}

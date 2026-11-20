@@ -1,0 +1,17 @@
+{
+  "R_share": {
+    "t": 0.4984932062743522
+  },
+  "R_win": {
+    "t": 2216.291158670268
+  },
+  "R_winshare": {
+    "t": 0.5118661040353162
+  },
+  "constants": {
+    "ALARM_WINDOW_S": 10,
+    "H_ENTROPY": 0.9375,
+    "MIN_HIGH_PER_WINDOW": 256,
+    "READ_WINDOW_S": 10.0
+  }
+}

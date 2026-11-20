@@ -1,0 +1,10 @@
+{
+  "exposure_hours_gross": 156.96,
+  "exposure_hours_net": 128.74,
+  "first_external_request_after_ct_log_entry_seconds": 2.9,
+  "n_events": 1455,
+  "n_events_in_exposure_window": 1421,
+  "n_events_inside_recorded_outage": 34,
+  "outage_hours": 28.22,
+  "uses": 0
+}

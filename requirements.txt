@@ -1,0 +1,7 @@
+# Provisional lower bounds inherited from the draft where applicable.
+# Historical versions and unresolved dependencies are documented in README.md.
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+python-evtx>=0.7
+pandas
